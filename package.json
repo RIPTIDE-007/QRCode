@@ -1,0 +1,25 @@
+{
+  "name": "qrcodeapp",
+  "version": "1.0.0",
+  "description": "Qr code app that takes user input url and generates qrcode image",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIPTIDE-007/QRCode.git"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RIPTIDE-007/QRCode/issues"
+  },
+  "homepage": "https://github.com/RIPTIDE-007/QRCode#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "inquirer": "^10.0.0",
+    "qr-image": "^3.2.0"
+  }
+}
